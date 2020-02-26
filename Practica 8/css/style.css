@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:#3E38F9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+header{
+    background: url('../img/banner.jpg');  
+}
+
+header h1{
+    font-size:  1.5em; /* em medida proporcional */
+    font-weight: normal;  /*  */  
+}
+#logo, header h1{
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+nav{
+    display: inline-block;
+    width: 750px;
+    text-align: right;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;  /*  pone los objetos horizontamlmente */ 
+    margin-right: 15px;  /* lado derecho pixeles de separación */ 
+}
+
+nav a{
+     font-size: 10.5em;
+     color:white;
+     text-decoration: none;
+     padding-bottom: 3px;
+}
+
+nav a:hover{
+    color: azure;
+}
+
+article{
+    padding: 10x;
+}
+
+section{
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 75%;
+}
+
+aside{
+    float: right;
+    width: 20%;
+    border: 1px solid;
+}
+
+footer{
+    position: relative;
+    margin-top: -50px;
+            /* Altura del footer en px. Se han restado los 5px del margen
+               superior mas los 5px del margen inferior
+            */
+    height: 40px;
+    padding:5px 0px;
+    clear: both;
+    color: white; 
+    background: #1913DD;
+    text-align: left;
+}
